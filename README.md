@@ -32,7 +32,7 @@ A modular Python pipeline that turns an AI-generated fictional story into a capt
 ## Other project experience
 
 - **AI voice appointment automation:** built lead-qualification and scheduling workflows using Vapi, Make.com, n8n, and Airtable.
-- **Job application intelligence:** built job-discovery and resume-tailoring workflows with n8n, NVIDIA NIM, Supabase pgvector, and Google Docs/Drive APIs.
+- **[Job matching and resume automation](https://github.com/faraz020/AI-Job-Matching-and-Resume-Automation):** built job-discovery and resume-tailoring workflows with n8n, NVIDIA NIM, Supabase pgvector, and Google Docs/Drive APIs.
 
 ## Tools I work with
 
