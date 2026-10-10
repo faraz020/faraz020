@@ -4,7 +4,7 @@
 
 I build AI workflows that connect business tools, process information, and automate repetitive work. My focus is practical integrations: turning an idea into a workflow with clear inputs, useful outputs, and documented setup.
 
-[View my featured project](https://github.com/faraz020/End-to-End-AI-Content-Automation-with-n8n-Python) · [Connect on LinkedIn](https://www.linkedin.com/in/faraz-siddiqui/)
+[View my featured projects](#featured-projects) · [Connect on LinkedIn](https://www.linkedin.com/in/faraz-siddiqui/)
 
 ## What I can help you build
 
@@ -14,7 +14,7 @@ I build AI workflows that connect business tools, process information, and autom
 | **AI agents and knowledge search** | Document processing, embeddings, vector search, and retrieval-augmented generation |
 | **Voice and content workflows** | Lead qualification and appointment workflows with Vapi; Python pipelines for narrated, captioned video |
 
-## Featured project
+## Featured projects
 
 ### [AI Content Automation Pipeline](https://github.com/faraz020/End-to-End-AI-Content-Automation-with-n8n-Python)
 
@@ -29,10 +29,22 @@ A modular Python pipeline that turns an AI-generated fictional story into a capt
 
 **Stack:** Python, Groq, Pillow, edge-tts, faster-whisper, FFmpeg. Designed for self-hosted n8n orchestration; the workflow export is being prepared for publication.
 
+### [AI Job Matching & Resume Automation](https://github.com/faraz020/AI-Job-Matching-and-Resume-Automation)
+
+Three n8n workflows that turn job listings into a ranked shortlist and tailored Google Docs resumes.
+
+**Flow:** Remote OK + Adzuna job discovery → Supabase vector search → NVIDIA job-fit evaluation → Google Sheets shortlist → Google Docs resume tailoring.
+
+- Normalize and deduplicate job listings before embedding them.
+- Match candidate-profile information to jobs and generate fit scores, explanations, and red flags.
+- Tailor resume content using the master profile and fill a Google Docs template.
+- Sanitized workflow exports with credential mapping, setup instructions, and fictional examples.
+
+**Stack:** n8n, NVIDIA NIM, Supabase pgvector, Adzuna, Google Drive, Sheets, and Docs. Generates resumes for review; application submission remains manual.
+
 ## Other project experience
 
 - **AI voice appointment automation:** built lead-qualification and scheduling workflows using Vapi, Make.com, n8n, and Airtable.
-- **[Job matching and resume automation](https://github.com/faraz020/AI-Job-Matching-and-Resume-Automation):** built job-discovery and resume-tailoring workflows with n8n, NVIDIA NIM, Supabase pgvector, and Google Docs/Drive APIs.
 
 ## Tools I work with
 
